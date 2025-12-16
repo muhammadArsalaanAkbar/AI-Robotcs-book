@@ -15,19 +15,19 @@ const FeatureList: FeatureItem[] = [
     title: 'ROS 2 Fundamentals',
     imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBqHb7qsjLTX35E2L8uZzosiBnJhWwVQO6xw&s', // example image
     description: <>Nodes, topics, services, actions & humanoid control explained in practical labs.</>,
-    link: '/docs/ros2/overview',
+    link: 'http://localhost:3000/docs/chapters/introduction-physical-ai',
   },
   {
     title: 'Simulation & Digital Twin',
     imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe6sHG0zOAQo6C40VmnEPRnwiSrriH41gYMw&s',
     description: <>Gazebo, Isaac Sim, and Unity-based simulations for humanoid robotics.</>,
-    link: '/docs/simulation/overview',
+    link: 'http://localhost:3000/docs/chapters/robotics-fundamentals',
   },
   {
     title: 'Vision-Language-Action (VLA)',
     imgUrl: 'https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-031-87697-4_6/MediaObjects/615691_1_En_6_Fig1_HTML.png',
     description: <>Planning and perception pipelines using LLMs and VLA agents.</>,
-    link: '/docs/vla/overview',
+    link: 'http://localhost:3000/docs/chapters/robotics-fundamentals#architecture-diagram-simple-robot-control-loop',
   },
 ];
 

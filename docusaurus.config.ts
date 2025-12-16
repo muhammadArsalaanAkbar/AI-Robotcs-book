@@ -75,21 +75,21 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'AI',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'My Logo',
+        src: 'https://daxg39y63pxwu.cloudfront.net/images/blog/artificial-intelligence-books/Top_AI_Books.webp',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Details',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: 'http://localhost:3000/docs/introduction', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/muhammadArsalaanAkbar/AI-Robotcs-book/tree/main',
           label: 'GitHub',
           position: 'right',
         },
@@ -102,8 +102,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Details',
+              to: 'http://localhost:3000/docs/CONTRIBUTING',
             },
           ],
         },
@@ -111,16 +111,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/feed/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/muhammadArsalaanAkbar',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Versal',
+              href: 'https://vercel.com/muhammad-arsalan-akars-projects',
             },
           ],
         },
@@ -129,7 +129,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: 'http://localhost:3000/docs/introduction',
             },
             {
               label: 'GitHub',

@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="http://localhost:3000/docs/chapters/introduction-physical-ai">
-            Physical AI & Humanoid Robotics — Full Course Details 📘
+            Book Contents 📖
           </Link>
         </div>
       </div>
